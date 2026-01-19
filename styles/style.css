@@ -72,3 +72,9 @@
         box-shadow: 0 0 0 0 rgba(251, 9, 180, 0);
     }
 }
+
+header {
+    height : 760px;
+    display: flex;
+    flex-direction: column;
+}
