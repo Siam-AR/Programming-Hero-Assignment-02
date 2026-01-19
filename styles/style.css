@@ -110,3 +110,15 @@ header {
     transform: scale(0.97);
 }
 
+.new-badge {
+  padding: 0.5rem 1rem;
+  border-radius: 1000px;
+  border: none;
+  background: #00FF88;
+  color: #003d1f;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0px 3px 27px rgba(0, 255, 136, 0.5);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
