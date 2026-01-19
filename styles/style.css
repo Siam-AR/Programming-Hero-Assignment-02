@@ -78,3 +78,35 @@ header {
     display: flex;
     flex-direction: column;
 }
+
+.subscribe-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 12px 20px;
+
+  background-color: transparent;
+  border: 2px solid #2dff9b;
+  border-radius: 999px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #2dff9b;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.subscribe-btn:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 10px 30px rgba(145, 0, 248, 0.35);
+    opacity: 0.95;
+}
+
+.subscribe-btn:active {
+    transform: scale(0.97);
+}
+
