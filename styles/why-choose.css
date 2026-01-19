@@ -1,0 +1,73 @@
+.why-choose {
+  background-color: #1a0b2e;
+  padding: 7.5rem clamp(1.5rem, 10vw, 12.5rem);
+
+}
+
+.why-title {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+}
+
+.audio { 
+  grid-area: audio; 
+}
+.mobile { 
+  grid-area: mobile; 
+}
+.global { 
+  grid-area: global; 
+}
+.interviews { 
+  grid-area: interviews; 
+}
+.resources { 
+  grid-area: resources; 
+}
+
+.why-grid {
+  max-width: 75rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  grid-template-areas:
+    "audio mobile mobile"
+    "audio global global"
+    "interviews interviews resources";
+}
+
+.card {
+  background: #35116566;
+  border-radius: 1.5rem;
+  padding: 1.8rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  color: #ffffff;
+}
+
+.card img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1.25rem;
+  padding: 0.625rem;
+  border-radius: 1rem;
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cfc6dd;
+}
