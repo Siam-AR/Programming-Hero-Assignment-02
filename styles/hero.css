@@ -8,7 +8,6 @@
   width: 100%;
   min-height: 100vh;
   display: flex;
-  /* padding-bottom: 4rem; */
 }
 
 .hero-bg {
@@ -95,4 +94,56 @@
   top: 32%;
   left: 53%;
   z-index: 5;
+}
+
+@media screen and (max-width: 576px) {
+
+  .hero-section {
+    min-height: 80vh;
+  }
+
+  .hero-center {
+    gap: 25px;
+  }
+
+  .hero-design {
+    width: 180px;
+    margin-top: 50px;
+  }
+
+  .microphone {
+    width: 80px;
+  }
+
+  .hero-content-info h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .hero-content-info p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 90%;
+  }
+  
+  .hero-content-button {
+    display: flex;         
+    flex-direction: row;   
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: nowrap;    
+  }
+
+  .hero-content-button button {
+    display: inline-flex;  
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .new-badge {
+    top: 31%;
+    left: 51%;
+    transform: scale(0.8);
+  }
+
 }
