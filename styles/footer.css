@@ -1,9 +1,3 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
 footer {
     background: #12002b;
 }
@@ -78,4 +72,136 @@ footer {
     font-weight: 400;
     color: #ffffff;
     opacity: 0.6;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+footer {
+    background: #12002b;
+}
+
+.footer-content {
+    width: 100%;
+    min-height: 26rem;
+    background-image: url("../assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 4.5rem;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.2rem;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 1.2rem 3.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.75;
+}
+
+.footer-links i {
+    font-size: 1.2rem;
+}
+
+.copyright {
+    margin-top: 2.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 36rem) {
+
+    .footer-content {
+    width: 100%;
+    min-height: 26rem;
+    background-image: url("../assets/footer-bg.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;       
+    background-position: center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.5rem;
+}
+
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;                   
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer-logo {
+    margin-bottom: 1rem;          
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1.5rem;                  
+    justify-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 2rem;             
+    padding: 0;
+  }
+
+  .footer-links li {
+    list-style: none;
+  }
+
+  .footer-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    opacity: 0.8;
+    color: #ffffff;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 2.5rem;           
+    font-size: 0.75rem;
+    opacity: 0.6;
+  }
 }
