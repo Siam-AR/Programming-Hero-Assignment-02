@@ -63,3 +63,48 @@ margin-bottom: 1rem;
   letter-spacing: 1px;
   color: #b7accf;
 }
+
+
+@media screen and (max-width: 576px) {
+
+  .about-section {
+    padding: 1.25rem 2.5rem; 
+    min-height: auto;        
+    row-gap: 3.1rem;           
+  }
+
+  .about-info {
+    margin-top: 4rem;        
+  }
+
+  .about-info h2 {
+    font-size: 2rem;         
+    line-height: 40px;
+    margin-bottom: 0.5rem;
+  }
+
+  .about-info p {
+    font-size: .9rem;         
+    line-height: 20px;
+    max-width: 100%;         
+  }
+
+  .about-info .about-sub {
+    font-size: 0.75rem;         
+    margin-top: 0.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .about-stats {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;                  
+  }
+
+  .stat h3 {
+    font-size: 1.5rem;            
+  }
+
+  .stat span {
+    font-size: 10px;            
+  }
+}
